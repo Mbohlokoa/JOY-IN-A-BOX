@@ -1,0 +1,57 @@
+css
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: blue;
+}
+
+header {
+    background-color: white;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid pink;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #d6b98c;
+}
+
+nav a {
+    padding: 14px 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #b89b6d;
+}
+
+.container {
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #ccc;
+}
+
+footer {
+    background-color: pink;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+    }
+}
